@@ -1,0 +1,78 @@
+#root {
+  text-align: center;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #142e5e;
+  color: aliceblue;
+}
+
+a {
+  display: block;
+  margin: 20px;
+  color: aliceblue;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.modal {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0f2552;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #4377d8;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName {
+  margin-right: 20px;
+}
+
+.contactsItem {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: cornflowerblue 1px solid;
+  border-radius: 5px;
+}
